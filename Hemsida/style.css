@@ -1,0 +1,244 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Homepage*/
+html body{
+background-color: #f5f5f5
+}
+header{ 
+width:100%;
+height:85px;
+display: block;
+background-color:#D4D4D4;
+box-shadow: 0px 5px 13px #27272780;
+-webkit-box-shadow: 0px 5px 13px #27272780;
+-moz-box-shadow: 0px 5px 13px #27272780;
+position: relative;
+z-index: 999999;
+}
+
+ul {
+float: right;
+list-style-type: none;
+margin:40px;
+padding: 5px;
+margin-top: 20px;
+word-spacing: 13px;
+font-size: 23px;
+border: 3px solid white;
+}
+
+ul li {
+    display: inline-block;
+    color: white
+}
+
+ul{
+/* unvisited link */
+color: white;
+}
+/* visited link */
+  a:visited {
+    color: white;
+}
+  
+/* mouse over link */
+a:hover{
+    color: #000000;
+    -o-transition:.7s;
+    -ms-transition:.7s;
+    -moz-transition:.7s;
+    -webkit-transition:.7s;
+    transition:.7s;
+}
+/* selected link */
+a:active {
+    color: rgb(0, 81, 255);
+}
+
+a:hover, a:visited, a:link, a:active{
+text-decoration: none;
+}
+
+img{
+height: auto; 
+width: auto; 
+max-width: 200px; 
+max-height: 200px;
+resize:600px;   
+}
+/*Homepage^*/
+
+
+
+/*About*/
+
+.Profile{
+border-radius: 50%;
+display:middle;
+}?
+
+section{
+max-width:1100px;
+margin: 0 auto;
+padding:0 48px;
+margin-top:155px;
+text-align: center;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#myname{
+color:rgb(0, 0, 0);
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:100px;
+word-spacing:6px;
+margin-bottom:0px;
+font-weight: 100;
+
+}
+
+#myprofession{
+color: rgb(134, 170, 203);
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+margin-bottom:75px;
+letter-spacing:4px;
+font-style:italic;
+font-weight: 100;
+}
+
+.one{
+color: black;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:20px;
+line-height:30px;
+margin-bottom:30px;
+}
+.two{
+color:rgb(48, 48, 48);
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:30px;
+margin-top:5px;
+font-style: italic;
+font-weight: 100;
+
+}
+
+h3{
+color:rgb(48, 48, 48);
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:30px;
+margin-top:5px;
+font-style: italic;
+font-weight: 100;
+
+
+}
+/*About^*/
+
+
+/*Gallery*/
+h4{
+color:rgb(0, 0, 0);
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:50px;
+word-spacing:6px;
+margin-top:45px;
+margin-left:525px;
+font-weight: 100;
+}
+
+h5{
+color:rgb(0, 0, 0);
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:30px;
+word-spacing:6px;
+margin-top:10px;
+margin-left:610px;
+font-weight: 500;
+font-style:italic;
+}
+
+.gallery{
+position: relative;
+
+height: 100%;
+width: 90%;
+margin: auto;
+padding: 45px 0;
+display:grid;
+grid-template-columns: auto auto;
+grid-gap: 2vmin;
+}
+
+.gallery .img{
+position: relative;
+height:100%;
+overflow: hidden;
+max-width:100opx;
+height:auto;
+}
+/*Gallery^*/
+
+/*Contact me*/
+*{
+margin:0;
+padding:0;
+}
+
+.container{
+width:80%;
+margin:50px auto;
+}
+
+.contact-box{
+background-color:white;
+display:flex;
+}
+
+.contact-left{
+flex-basis:60%;
+padding:40px 60px;
+}
+
+.contact-right{
+flex-basis:40%;
+padding:40px;
+background-color:rgb(63, 63, 63);
+color:white;
+}
+
+#title-contact{
+margin-bottom:10px;
+}
+
+.container p{
+margin-bottom:40px;
+}
+
+.input-row{
+margin-bottom:20px;
+}
+
+
+
+
+
+/*Contact me^*/
+
+
+
+
+
+
+
+
+
+
+
+
+
