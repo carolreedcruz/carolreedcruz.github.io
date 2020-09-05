@@ -3,9 +3,12 @@
 <head>
 <title>Contact</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<header>
+</head>
 
+<body>
+    <header>
     <nav>
+        <img id="mylogo"src="Images/Logotyp.png" alt="logo">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -17,47 +20,22 @@
 
 </header>
 
-</head>
-
-<body>
-
-<div class="container">
-    <h1 id="title-contact">Contact Me</h1>
-    <div class="contact-box">
-        <div class="contact-left">
-            <h3>Send your request</h3>
-
-            <form>
-
-                <div class="input.row">
-                    <div class="input-group">
-                    <label>Name</label>
-                    <input type="text" placeholder="">
-                </div>
-                <div class="input-group">
-                    <label>Phone</label>
-                    <input type="text" placeholder="+46-XXX XX XXX">
-                </div>    
-            </div>
-            <div class="input.row">
-                <div class="input-group">
-                <label>Email</label>
-                <input type="email" placeholder="">
-            </div>
-            <div class="input-group">
-                <label>Subject</label>
-                <input type="text" placeholder="">
-            </div>    
+    <div class="container">
+        <h2 class="title-contact">Contact Me</h2>
+        <h3 class="sub-contact">I'm here to provide with more information and answer any questions you have!</h3>
+        <div class="contact-form">
+          <form  id="contact-form" method="post">
+              <input type="text"  id="name" placeholder="Name">
+              <p id="namePrompt"></p>
+              <input type="text"  id="email" placeholder="Email">
+              <p id="emailPrompt"></p>
+              <input type="text" id="tele" placeholder="Phone">
+              <p id="phonePrompt"></p>
+              <textarea  id="textarea" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+              <input onclick="validateForm()" type="submit" value="Send" id="send"><p id="submitPrompt"></p>
+              <p id="textPrompt"></p>
+          </form>
         </div>
-        </form>
-
-       </div>
-        <div class="contact-right">
-        <h3>Reach me</h3>
-
-        </div>
-    </div>
-    </div>
 
 
 
